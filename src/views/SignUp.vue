@@ -9,7 +9,7 @@
         <v-text-field v-model="signup.password" label="Password" variant="underlined" />
       </v-card-text>
       <v-card-actions>
-        <v-btn block class="bg-indigo">Sign Up</v-btn>
+        <v-btn :loading="signup.loading" @click="signup.createUser" block class="bg-indigo">Sign Up</v-btn>
       </v-card-actions>
     </v-card>
   </v-container>
