@@ -6,9 +6,9 @@ import { defineStore } from 'pinia'
 
 export const useSignupStore = defineStore('signup', {
     state: () => ({
-        name: 'Terry Amagboro',
-        email: 'rukkiecodes@gmail.com',
-        password: 'amagboro',
+        name: '',
+        email: '',
+        password: '',
         loading: false
     }),
 
